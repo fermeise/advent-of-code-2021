@@ -1,0 +1,8 @@
+[package]
+name = "advent_of_code"
+version = "0.1.0"
+authors = ["Christian Ocker <ocker.christian@gmail.com>"]
+
+[dependencies]
+itertools = "0.8.2"
+scan_fmt = "0.1.3"
