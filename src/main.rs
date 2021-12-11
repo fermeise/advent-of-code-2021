@@ -8,6 +8,7 @@ mod day7;
 mod day8;
 mod day9;
 mod day10;
+mod day11;
 
 extern crate itertools;
 
@@ -36,6 +37,7 @@ fn main() -> std::io::Result<()> {
         8 => println!("{:?}", day8::solve(&input)),
         9 => println!("{:?}", day9::solve(&input)),
         10 => println!("{:?}", day10::solve(&input)),
+        11 => println!("{:?}", day11::solve(&input)),
         _ => eprintln!("invalid day: {}", day),
     }
     Ok(())
